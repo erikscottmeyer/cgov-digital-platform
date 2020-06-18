@@ -3,7 +3,7 @@
 
 /* Borderless Cards */
 .borderless-container {
-  padding:0 0.9375em 1.5em 0.9375em;
+  padding:20px 0.9375em 1.5em 0.9375em;
   .borderless-card {
     @include flexcontainer();
     @include property-prefix(justify-content, space-between);
